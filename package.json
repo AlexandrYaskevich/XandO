@@ -2,11 +2,12 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://AlexandrYaskevich.github.io/XandO",
+  "homepage": "https://AlexandrYaskevich.github.io/XandO/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
